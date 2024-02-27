@@ -1,8 +1,13 @@
-public class Producto {
-    private StringBuffer codigo;
+import java.time.LocalDate;
+import java.util.LinkedHashSet;
+import java.util.Set;
 
-    public Producto(StringBuffer codigo) {
-        if(codigo.)
+public class Producto {
+    private String codigo;
+
+
+
+    public Producto(String codigo)  {
         this.codigo = codigo;
     }
 
@@ -13,4 +18,5 @@ public class Producto {
     public void setCodigo(String codigo) {
         this.codigo = codigo;
     }
+
 }
